@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive to do list</title>
+    <style>
+        body {
+            width: 56vw;
+        }
+
+        .red {
+            border: 2px solid black;
+            width: 56vw;
+            height: 35px;
+            align-items: center;
+            text-align: center;
+            padding: 56px;
+            background-color: rgb(15, 12, 12);
+
+
+
+        }
+
+        .bhan {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+            font-size: larger;
+            color: antiquewhite;
+        }
+
+        input {
+            border: 2px solid rgb(31, 22, 22);
+            width: 250px;
+            margin-left: 37px;
+            height: 30px;
+            background-color: aliceblue;
+
+
+
+
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        button {
+            height: 33px;
+            border: 2px solid grey;
+            background-color: gray;
+        }
+
+        .text {
+
+
+            position: relative;
+            padding-top: 45px;
+            margin-top: 50px;
+            margin-left: 0px;
+
+
+
+
+        }
+
+        ul {
+            padding-left: 0%;
+            border: 2px solid rgb(36, 28, 28);
+            width: 75vw;
+            margin: 0%;
+            align-items: center;
+            background-color: rgb(112, 126, 131);
+            color: antiquewhite;
+
+
+        }
+
+        ul li {
+            padding-left: 0%;
+            margin-left: 0%;
+
+
+        }
+
+        svg {
+            margin-left: 180px;
+            text-align: end;
+            color: rgb(116, 179, 179);
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red">
+        <div class="bhan">
+            MY TO DO lIST
+        </div>
+        <div class="flex">
+
+            <input type="text" id="inp" placeholder="title">
+
+
+            <button onclick="Add()">add</button>
+        </div>
+    </div>
+    <div class="text">
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
